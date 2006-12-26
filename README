@@ -3,18 +3,18 @@ perl-XML-LibXSLT
 Perl bindings for libxslt.
 
 Runtime requirements:
-  cygwin-1.5.21-2
+  cygwin-1.5.23-2
   libxslt-1.1.17-1
   perl-5.8.7-5
-  perl-XML-LibXML-1.61003-1
+  perl-XML-LibXML-1.62001-1
   perl-XML-LibXML-Common-0.13-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.21-2
+  cygwin-1.5.23-2
   binutils-20060817-1
-  cygport-0.2.6-1
-  gcc-core-3.4.4-1
+  cygport-0.2.7-1
+  gcc-core-3.4.4-3
   make-3.81-1
 
 Canonical homepage:
@@ -26,15 +26,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-XML-LibXSLT-1.61-X-src.tar.bz2
+  unpack perl-XML-LibXSLT-1.62-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./XML-LibXSLT-1.61-X.cygport all
+  cygport ./XML-LibXSLT-1.62-X.cygport all
 
 This will create:
-  /usr/src/perl-XML-LibXSLT-1.61-X-src.tar.bz2
-  /usr/src/perl-XML-LibXSLT-1.61-X.tar.bz2
+  /usr/src/perl-XML-LibXSLT-1.62-X-src.tar.bz2
+  /usr/src/perl-XML-LibXSLT-1.62-X.tar.bz2
 
 -------------------------------------------
 
@@ -47,15 +47,18 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXSLT/LibXSLT.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXSLT/LibXSLT.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXSLT/libLibXSLT.dll.a
-  /usr/share/doc/Cygwin/perl-XML-LibXSLT-1.61.README
-  /usr/share/doc/perl-XML-LibXSLT-1.61/Changes
-  /usr/share/doc/perl-XML-LibXSLT-1.61/README
+  /usr/share/doc/Cygwin/perl-XML-LibXSLT-1.62.README
+  /usr/share/doc/perl-XML-LibXSLT-1.62/Changes
+  /usr/share/doc/perl-XML-LibXSLT-1.62/README
   /usr/share/man/man3/XML.LibXSLT.3pm.gz
   /usr/share/perl/cygwin-pods/XML-LibXSLT.pod
 
 ------------------
 
 Port Notes:
+
+----- version 1.62-1 -----
+Version bump.
 
 ----- version 1.61-1 -----
 Version bump.
