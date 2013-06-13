@@ -1,0 +1,10 @@
+CPAN_AUTHOR=shlomif
+inherit perl
+
+NAME="perl-XML-LibXSLT"
+VERSION=1.80
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl bindings for libxslt"
+DESCRIPTION="This module is a fast XSLT library, based on the GNOME libxslt
+engine."

@@ -1,4 +1,0 @@
-category: Perl
-requires: libxml2 libxslt perl perl-XML-LibXML perl-XML-LibXML-Common
-sdesc: "Perl bindings for libxslt"
-ldesc: "Perl bindings for libxslt"
